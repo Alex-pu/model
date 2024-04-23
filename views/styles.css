@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the body */
+}
+
+h1, h2 {
+    color: #333; /* Text color for headings */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the table (card-like effect) */
+}
+
+table th {
+    background-color: #4CAF50; /* Green background for table header */
+    color: white; /* White text color for table header */
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ddd; /* Border color between table rows */
+}
+
+table tr:hover {
+    background-color: #f2f2f2; /* Background color on hover */
+}
+
+table a {
+    text-decoration: none;
+    color: #4CAF50; /* Green text color for links */
+    margin-right: 10px;
+}
+
+table a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
